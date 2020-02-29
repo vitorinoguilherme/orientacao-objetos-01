@@ -6,10 +6,11 @@ public class Funcionario {
     public Integer idade;
     public Double salario;
 
-    public Funcionario(String nome, int idade, String email) {
+    public Funcionario(String nome, int idade, String email, Double salario) {
         this.nome = nome;
         this.idade = idade;
         this.email = email;
+        this.salario = salario;
     }
 
     public String obterDados() {
