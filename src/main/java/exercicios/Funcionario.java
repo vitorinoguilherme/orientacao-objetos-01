@@ -14,10 +14,14 @@ public class Funcionario {
     }
 
     public String obterDados() {
-        return String.format("%s, %d anos (%s) %n", nome, idade, email);
+        return String.format("%s, %d anos (%s) ", nome, idade, email);
     }
 
     public void promover(Double porcentagemAumento) {
         salario += (salario * porcentagemAumento);
+    }
+
+    public Double getSalario() {
+        return salario;
     }
 }
