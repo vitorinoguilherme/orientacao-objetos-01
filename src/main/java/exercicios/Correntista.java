@@ -12,4 +12,20 @@ public class Correntista {
         this.codigo = codigo;
         this.telefone = telefone;
     }
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public int getTelefone() {
+        return telefone;
+    }
 }
